@@ -1,0 +1,68 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-transform: capitalize;
+  
+}
+section{
+    margin-bottom: 100px;
+}
+
+/* bannaer section */
+ #bannar-section{
+   padding: 18%;
+   
+   background: linear-gradient(#00000029, #00000070), url(images/hat.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: white;
+ }
+ 
+ .banner-head h1{
+font-size: 50px;
+margin-bottom: 5px;
+letter-spacing: 2px;
+ }
+ .banner-head P{
+    line-height: 28px;
+    word-spacing: 4px;
+    
+ }
+ .donate-btn{
+    background-color:coral;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 20px 0;
+    border: none;
+
+ }
+ .donate-btn:hover{
+    background-color: rgb(92, 48, 32);
+    color: white;
+    transition: 2s;
+
+ }
+ #donation-section{
+     display: flex;
+     padding: 0 10%;
+     margin: 0 4%;
+ }
+ .left-side{
+  width: 50%;
+ }
+ .left-side h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+ }
+ .left-side p{
+    line-height: 27px;
+    word-spacing: 4px;
+     
+ }
+ .right-side{
+width: 50%;
+ }
+ .right-side img{
+    width: 100%;
+ }
