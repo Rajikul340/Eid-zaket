@@ -46,7 +46,8 @@ letter-spacing: 2px;
  #donation-section{
      display: flex;
      padding: 0 10%;
-     margin: 0 4%;
+     margin: 5%;
+
  }
  .left-side{
   width: 50%;
@@ -65,4 +66,26 @@ width: 50%;
  }
  .right-side img{
     width: 100%;
+    
+    
  }
+
+ /* serviv-section */
+#servive-section{
+    display: flex;
+    padding: 0 10%;
+}
+  .left-side img{
+    width: 90%;
+    height: 110%;
+  }
+  .right-side h2{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+  }
+  .right-side p{
+    line-height: 27px;
+    word-spacing: 4px;
+     
+  }
