@@ -9,10 +9,33 @@ section{
 }
 
 /* bannaer section */
+@keyframes background {
+   0%{
+      background: url(images/donate.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+   }
+   50%{
+      background:   url(images/pray.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+   }
+   100%{
+      background: url(images/jongle.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+   }
+   
+}
  #bannar-section{
    padding: 18%;
-   
-   background: linear-gradient(#00000029, #00000070), url(images/hat.jpg);
+    animation: background 4s ease .2s infinite forwards  ;  
+   background: url(images/hat.jpg);
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
