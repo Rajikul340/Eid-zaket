@@ -89,3 +89,121 @@ width: 50%;
     word-spacing: 4px;
      
   }
+
+  /* lives depends section design  */
+
+  #lives-depend-section{
+
+  }
+  .lives-depend-head{
+    margin: auto;
+    width: 40%;
+     text-align: center;
+  }
+  .lives-depend-head h3{
+     font-size: 30px;
+     margin-bottom: 10px;
+  }
+  .lives-depend-head p{
+         line-height: 20px;
+         margin-bottom: 10px;
+  }
+  .lives-depend-card{
+ display: grid;
+  grid-template-columns: repeat(2,1fr);
+  padding: 0 20%;
+  gap: 20px;
+ /* margin: auto;
+ padding:0 10%; */
+  }
+  .lives-depend-singlebox{
+       background:#FEF4F5 ;
+      width: 100%;
+       
+      border-radius: 4px;
+  }
+  .lives-singlbox-desc{
+    display: flex;
+    padding: 30px;
+  }
+  .box-leftside-icon {
+  padding: 10px;
+  font-size: 30px;
+  color: red;
+ 
+  }
+  .box-rightside-desc h4{
+    font-size: 20px;
+  }
+
+  /* prayer section design */
+  #prayer{
+   display: flex;
+    margin: 0 20px;
+    margin-bottom: 100px;
+    padding: 0 20%;
+  }
+  .prayer-card{
+  
+  }
+  .prayer-card img{
+   width: 80%;
+   height: 100%;
+   border-radius: 10px;
+  }
+ 
+
+  /* rewards section design  */
+
+ .rewards-section-header{
+     text-align: center;
+     width: 50%;
+     margin: auto;
+ }
+ .rewards-section-header h3{
+   font-size: 30px;
+   margin-bottom: 10px;
+ }
+ .rewards-section-header p{
+   margin-bottom: 10px;
+   word-spacing: 2px;
+   line-height: 20px;
+ }
+ .rewards-card{
+     display: flex;
+     padding: 0 20%;
+   
+ 
+ }
+ .rewards-singlebox{
+      padding: 10px;
+      margin: 10px;
+      box-shadow: inset -1px 1px 5px 0px #bdafafe3;
+ }
+ .rewards-singlebox-img{
+
+ }
+ .rewards-singlebox-img img{
+   width: 100%;
+ }
+
+ .rewards-singlebox-title h5{
+   font-size: 20px;
+ }
+ a{
+   color: rebeccapurple;
+ }
+
+ footer{
+   background-color: black;
+     text-align: center;
+     padding: 20px;
+ }
+
+ footer p{
+         color: red;
+         font-style: oblique;
+ }
+ footer span{
+   color: white;
+ }
